@@ -39,4 +39,28 @@
     top: 46px;
     right: 30px;
   }
+  .header-nav {
+    margin-bottom: 50px;
+  }
+  .header-row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .heade-content {
+    margin-top: 0;
+  }
+  .header-img {
+    text-align: center;
+  }
+
+  .header-heading {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-heading {
+    /* 1.36.03 */
+  }
 }

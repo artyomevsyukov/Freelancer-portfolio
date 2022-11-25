@@ -19,7 +19,7 @@ body {
   background-color: #f1f1f1;
 }
 .header-nav {
-  padding-bottom: 76px;
+  margin-bottom: 76px;
   display: flex;
 
   justify-content: space-between;
