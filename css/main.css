@@ -9,6 +9,7 @@ body {
   max-width: 1230px;
   padding: 0 30px;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* Header */
@@ -144,7 +145,6 @@ body {
   text-decoration: underline;
 }
 .title-1 {
-  margin-bottom: 70px;
   font-size: 34px;
   font-weight: 600;
   line-height: 51px;
@@ -157,4 +157,78 @@ body {
   margin-bottom: 40px;
 }
 
-/* section contacts */
+/* Footer */
+.contacts {
+  text-align: center;
+}
+
+.contacts-wrapper {
+  margin-top: 90px;
+}
+.contact-content p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+.contact-content p + p {
+  margin-top: 1em;
+}
+
+.contact-title {
+}
+.title-1 {
+  margin-bottom: 40px;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0em;
+}
+.contact-socials {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+}
+
+.contacts-button {
+  margin-bottom: 80px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 7px 22px;
+  border-radius: 30px;
+  background-color: #070707;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #333232;
+}
+
+.btn:active {
+  position: relative;
+  top: 2px;
+  background-color: #000000;
+}
+
+.contact-footer {
+  padding-bottom: 90px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #828282;
+}
+.contact-footer a {
+  color: #828282;
+}
