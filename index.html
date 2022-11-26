@@ -7,6 +7,13 @@
     <title>Freelancer portfolio</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header">
@@ -37,8 +44,9 @@
             </button>
           </nav>
         </div>
+        <!-- Header content -->
         <div class="header-row">
-          <div class="heade-content">
+          <div class="heade-content" data-aos="fade-up">
             <h1 class="header-heading">
               Kelvin Kramer
               <br /><span> Designer & Developer</span>
@@ -48,7 +56,7 @@
               York City. During my thirteen year tenure here.
             </p>
           </div>
-          <div class="header-img">
+          <div class="header-img" data-aos="fade-left" data-aos-delay="650">
             <picture>
               <source
                 media="(max-width: 700px)"
@@ -64,7 +72,7 @@
     <section class="services">
       <div class="container">
         <div class="services-row">
-          <div class="services-card">
+          <div class="services-card" data-aos="fade-down">
             <img
               class="services-card-img"
               src="./img/services/01.svg"
@@ -76,7 +84,7 @@
               built on latest development standards.
             </p>
           </div>
-          <div class="services-card">
+          <div class="services-card" data-aos="fade-down">
             <img
               class="services-card-img"
               src="./img/services/02.svg"
@@ -88,7 +96,7 @@
               built on latest development standards.
             </p>
           </div>
-          <div class="services-card">
+          <div class="services-card" data-aos="fade-down">
             <img
               class="services-card-img"
               src="./img/services/03.svg"
@@ -109,7 +117,7 @@
         <div class="portfolio-title">
           <h2 class="title-1">Portfolio</h2>
         </div>
-        <div class="project">
+        <div class="project" data-aos="flip-up">
           <img
             class="project-img"
             src="./img/portfolio/01.jpg"
@@ -119,7 +127,7 @@
             <a href="#!">Online fashion store - Homepage</a>
           </h3>
         </div>
-        <div class="project">
+        <div class="project" data-aos="flip-up">
           <img
             class="project-img"
             src="./img/portfolio/02.jpg"
@@ -127,7 +135,7 @@
           />
           <h3 class="project-title"><a href="#!">Reebok Store - Concept</a></h3>
         </div>
-        <div class="project">
+        <div class="project" data-aos="flip-up">
           <img
             class="project-img"
             src="./img/portfolio/03.jpg"
@@ -145,24 +153,24 @@
         <div class="contact-title">
           <h2 class="title-1">Contacts</h2>
         </div>
-        <div class="contact-content">
+        <div class="contact-content" data-aos="fade-down">
           <p>
             Want to know more or just chat? <br />
             You are welcome!
           </p>
         </div>
 
-        <div class="contacts-button">
+        <div class="contacts-button" data-aos="fade-down">
           <a class="btn" href="#!324234">Send message</a>
         </div>
-        <div class="contact-socials">
+        <div class="contact-socials" data-aos="zoom-in">
           <a href="#!"> <img src="./img/socials/LinkedIn.svg" alt="" /></a>
           <a href="#!"> <img src="./img/socials/Instargam.svg" alt="" /></a>
           <a href="#!"> <img src="./img/socials/Behance.svg" alt="" /></a>
           <a href="#!"> <img src="./img/socials/Dribble.svg" alt="" /></a>
         </div>
 
-        <h3 class="contact-footer">
+        <h3 class="contact-footer" data-aos="fade-up">
           <a href="#!"
             >Like me on <br />
             LinkedIn, Instagram, Behance, Dribble</a
@@ -170,6 +178,12 @@
         </h3>
       </git>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
