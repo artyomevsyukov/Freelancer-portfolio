@@ -115,6 +115,7 @@ body {
 }
 .services-card {
   flex: 1 1 0;
+  min-width: 315px;
 }
 .services-card-img {
   margin-bottom: 30px;
@@ -140,13 +141,16 @@ body {
   background-color: #f1f1f1;
   text-align: center;
 }
-
+.portfolio-title {
+  margin-bottom: 70px;
+}
 .project-title {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0em;
 }
+
 .project-title a {
   color: #000;
   text-decoration: underline;
@@ -166,14 +170,15 @@ body {
 
 /* Footer */
 .contacts {
+  padding: 90px 0;
   text-align: center;
 }
-
-.contacts-wrapper {
-  margin-top: 90px;
-}
-.contact-content p {
+.contact-title {
   margin-bottom: 40px;
+}
+
+.contact-content {
+  margin: 0 auto 40px;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -183,19 +188,11 @@ body {
   margin-top: 1em;
 }
 
-.contact-title {
-}
-.title-1 {
-  margin-bottom: 40px;
-  font-size: 34px;
-  font-weight: 600;
-  line-height: 51px;
-  letter-spacing: 0em;
-}
 .contact-socials {
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
   column-gap: 60px;
 }
 
@@ -229,7 +226,6 @@ body {
 }
 
 .contact-footer {
-  padding-bottom: 90px;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
