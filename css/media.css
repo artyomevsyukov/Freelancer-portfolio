@@ -35,8 +35,85 @@
   }
   .nav-button {
     position: fixed;
+    /* position: absolute; */
     z-index: 10;
     top: 46px;
     right: 30px;
+  }
+
+  .nav.open .nav-button {
+    position: fixed;
+  }
+
+  .header-nav {
+    margin-bottom: 50px;
+  }
+  .header-row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .heade-content {
+    margin-top: 0;
+  }
+  .header-img {
+    text-align: center;
+  }
+
+  .header-heading {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-heading {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+  }
+
+  .header-heading span {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+  }
+
+  .services {
+    padding: 60px 0;
+  }
+
+  .portfolio {
+    padding: 60px 0;
+  }
+  .portfolio-title {
+    margin-bottom: 50px;
+  }
+  .project-img {
+    margin-bottom: 30px;
+  }
+  .project + .project {
+    margin-top: 55px;
+  }
+
+  .contacts {
+    padding: 60px 0;
+    text-align: center;
+  }
+  .contact-title {
+    margin-bottom: 20px;
+  }
+
+  .contact-content {
+    margin-bottom: 20px;
+  }
+
+  .contacts-button {
+    margin-bottom: 70px;
+  }
+  .contact-socials {
+    margin-bottom: 20px;
+    column-gap: 50px;
   }
 }
