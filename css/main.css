@@ -100,23 +100,26 @@ body {
 .header-img {
 }
 
-/* Section servisec */
+/* Section services */
 
 .services {
+  padding: 90px 0;
 }
 
-.servisec-row {
+.services-row {
   display: flex;
-  padding: 90px 0;
+  flex-wrap: wrap;
   /* margin: 0 215px; */
   column-gap: 30px;
+  row-gap: 60px;
 }
-.servisec-card {
+.services-card {
+  flex: 1 1 0;
 }
-.servisec-card-img {
+.services-card-img {
   margin-bottom: 30px;
 }
-.servisec-card-title {
+.services-card-title {
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
@@ -124,7 +127,7 @@ body {
   text-transform: uppercase;
 }
 
-.servisec-card p {
+.services-card p {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
